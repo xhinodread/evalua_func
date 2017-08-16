@@ -1,0 +1,6 @@
+app\tmp\logs\error.log:24:2016-06-24 08:57:54 Warning: Warning (2): mssql_connect() [<a href='function.mssql-connect'>function.mssql-connect</a>]: No se puede conectar: el servidor SQL no está disponible o no existe. (severity 9) in [C:\AppServ\www\evaluafunc\cake\libs\model\datasources\dbo\dbo_mssql.php, line 155]
+app\tmp\logs\error.log:25:2016-06-24 08:57:54 Warning: Warning (2): mssql_connect() [<a href='function.mssql-connect'>function.mssql-connect</a>]: Unable to connect to server:  srv03w2k3sql01.gorecoquimbo.cl,1433 in [C:\AppServ\www\evaluafunc\cake\libs\model\datasources\dbo\dbo_mssql.php, line 155]
+cake\libs\model\datasources\dbo\dbo_mssql.php:155:			$this->connection = mssql_connect($config['host'] . $port, $config['login'], $config['password'], true);
+cake\libs\model\datasources\dbo\dbo_mssql.php:156:			/*$this->connection = mssql_connect($config['host'] . $port, $config['login'], $config['password'], true) or die($this->log("connect() \r\n  ".$config['host']."\r\n password: ".$config['login']."\r\n".$config['password']."\r\n".$config['database'].
+cake\libs\model\datasources\dbo\dbo_mssql.php:160:			if(mssql_connect($config['host'] . $port, $config['login'], $config['password'], true)){
+cake\libs\model\datasources\dbo\dbo_mssql.php:161:				$this->connection = mssql_connect($config['host'] . $port, $config['login'], $config['password'], true);
