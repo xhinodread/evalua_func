@@ -934,7 +934,7 @@ class AuthComponent extends Object {
 	function loginLDap($username, $password){
 		//$this->log("loginLDap() \r\n username: ".$username."\r\n password: ".$password, LOG_DEBUG);
 		//$this->log("loginLDap() \r\n username: ".$username."\r\n password: ".$password, logCLave);
-		$adConec = ldap_connect("ldap://192.168.200.198", 389); // or die();
+		$adConec = ldap_connect("ldap://***.***.***.***", 389); // or die();
 		ldap_set_option($adConec, LDAP_OPT_PROTOCOL_VERSION, 2);
 		ldap_set_option($adConec, LDAP_OPT_REFERRALS, 1);
 		$password = utf8_decode(trim($password));
