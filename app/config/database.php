@@ -79,10 +79,10 @@ class DATABASE_CONFIG {
 	var $default = array(
 		'driver' => 'mssql',
 		'persistent' => false,
-		'host' => 'SRV53BDDEV01.gorecoquimbo.cl',
+		'host' => '**************.gorecoquimbo.cl',
 		'port' => '',
-		'login' => 'usr_cometida',
-		'password' => 'pas_cometida',
+		'login' => '**************',
+		'password' => '**************',
 		'database' => 'personal',
 		'prefix' => '',
 		//'encoding' => 'utf8',
@@ -90,14 +90,11 @@ class DATABASE_CONFIG {
 	
 	var $dbEvaluaFunc = array(
 		'driver' => 'mssql',
-		'persistent' => true,
-		/*** DEVELOP 2015:  'host' => 'developers01.gorecoquimbo.cl', // '192.168.200.122',  ***/
-		/*** DEVELOP 2016: ***/
-//		'host' => 'SRV53BDDEV01.gorecoquimbo.cl', //'192.168.200.122', 
-		'host' => 'srv03w2k3sql01.gorecoquimbo.cl', //'192.168.200.201', 
+		'persistent' => true, 
+		'host' => '**************.gorecoquimbo.cl',  
 		'port' => '1433',
-		'login' => 'usr_remoto',
-		'password' => '4321*-',
+		'login' => '**************',
+		'password' => '**************',
 		'database' => 'DbEvalFunc',
 		'prefix' => '',
 		//'encoding' => 'utf8',
@@ -106,11 +103,10 @@ class DATABASE_CONFIG {
 	var $Server2016 = array(
 		'driver' => 'mssql',
 		'persistent' => false,
-//		'host' => 'SRV53BDDEV01.gorecoquimbo.cl', //'192.168.200.122', 
-		'host' => 'SRV53BDDEV01.gorecoquimbo.cl', //'192.168.200.122', 
+		'host' => '**************.gorecoquimbo.cl', 
 		'port' => '',
-		'login' => 'usr_remoto',
-		'password' => '4321*-',
+		'login' => '**************',
+		'password' => '**************',
 		'database' => 'DbEvalFunc',
 		'prefix' => '',
 		//'encoding' => 'utf8',
@@ -119,25 +115,22 @@ class DATABASE_CONFIG {
 	var $msSqlPersonas = array(
 		'driver' => 'mssql',
 		'persistent' => false,
-//		'host' => 'SRV53BDDEV01.gorecoquimbo.cl', //'192.168.200.122', 
-		'host' => 'srv03w2k3sql01.gorecoquimbo.cl',
+		'host' => '**************.gorecoquimbo.cl',
 		'port' => '1433',
-		'login' => 'usr_remoto',
-		'password' => '4321*-',
+		'login' => '**************',
+		'password' => '**************',
 		'database' => 'personal',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
 	
-	//'host' => 'srv03w2k3sql01.gorecoquimbo.cl',
-	//'host' => 'developers01.gorecoquimbo.cl',
 	var $msSqlBoletas = array(
 		'driver' => 'mssql',
 		'persistent' => false,
-		'host' => 'srv03w2k3sql01.gorecoquimbo.cl',
+		'host' => '**************.gorecoquimbo.cl',
 		'port' => '',
-		'login' => 'usr_remoto',
-		'password' => '4321*-',
+		'login' => '**************',
+		'password' => '**************',
 		'database' => 'dbDocGarantia',
 		'prefix' => '',
 		//'encoding' => 'utf8',
@@ -148,35 +141,23 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => '192.168.200.116', //'localhost',
 		'port' => '5432',
-		'login' => 'maraya',
-		'password' => 'Gore*-Coqbo2014Y',
+		'login' => '**************',
+		'password' => '**************',
 		'database' => 'acuerdos',
 	);
 	//'host' => '192.168.33.19',
 	var $dbGore = array(
 		'driver' => 'mysql',
 		'persistent' => false,
-		'host' => '192.168.33.19',
-		'login' => 'cqbogore',
-		'password' => 'bellsouth',
-		'database' => 'grlicita',
+		'host' => '**************',
+		'login' => '**************',
+		'password' => '**************',
+		'database' => '**************',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
 
 	
-/*
-	var $test = array(
-		'driver' => 'mssql',
-		'persistent' => false,
-		'host' => 'developers01.gorecoquimbo.cl',
-		'login' => 'usr_cometida',
-		'password' => 'pas_cometida',
-		'database' => 'personal',
-		'prefix' => '',
-		//'encoding' => 'utf8',
-	);
-*/
 	/*var $default = array(
 		'driver' => 'mysql',
 		'persistent' => false,
